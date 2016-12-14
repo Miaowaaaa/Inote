@@ -15,6 +15,7 @@
 		18CA4C701DF7E56B007136AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CA4C6E1DF7E56B007136AB /* LaunchScreen.storyboard */; };
 		18CA4C7B1DF7E56C007136AB /* iNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA4C7A1DF7E56C007136AB /* iNoteTests.m */; };
 		18CA4C861DF7E56C007136AB /* iNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA4C851DF7E56C007136AB /* iNoteUITests.m */; };
+		18CA4C951DF7EE60007136AB /* NoteBookData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA4C941DF7EE60007136AB /* NoteBookData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18CA4C811DF7E56C007136AB /* iNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CA4C851DF7E56C007136AB /* iNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iNoteUITests.m; sourceTree = "<group>"; };
 		18CA4C871DF7E56C007136AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CA4C931DF7EE60007136AB /* NoteBookData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBookData.h; sourceTree = "<group>"; };
+		18CA4C941DF7EE60007136AB /* NoteBookData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteBookData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 				18CA4C6E1DF7E56B007136AB /* LaunchScreen.storyboard */,
 				18CA4C711DF7E56B007136AB /* Info.plist */,
 				18CA4C601DF7E56B007136AB /* Supporting Files */,
+				18CA4C961DF7EE8B007136AB /* Data */,
 			);
 			path = iNote;
 			sourceTree = "<group>";
@@ -138,6 +142,15 @@
 				18CA4C871DF7E56C007136AB /* Info.plist */,
 			);
 			path = iNoteUITests;
+			sourceTree = "<group>";
+		};
+		18CA4C961DF7EE8B007136AB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				18CA4C931DF7EE60007136AB /* NoteBookData.h */,
+				18CA4C941DF7EE60007136AB /* NoteBookData.m */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CA4C951DF7EE60007136AB /* NoteBookData.m in Sources */,
 				18CA4C681DF7E56B007136AB /* ViewController.m in Sources */,
 				18CA4C651DF7E56B007136AB /* AppDelegate.m in Sources */,
 				18CA4C621DF7E56B007136AB /* main.m in Sources */,
